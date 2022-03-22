@@ -1,0 +1,44 @@
+@import url(_variaveis.css);
+@import url(_reset.css);
+
+body{
+    font-size: var(--tamanho-corpo) ;
+    font-family: var(--familia-corpo);
+    color: var(--cinza);
+
+    background: url(../assets/img/textura.png), url(../assets/img/fundo-linhas.png);
+    background-position: center;
+}
+
+.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.titulo{
+   font-size: var(--tamanho-titulo); 
+
+}
+
+.titulo--destaque {
+    font-family: var(--familia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+
+    display: block;
+    margin: 0.75rem 0 0.75rem ;
+}
+
+.alinhamento--esquerda{
+    text-align: center;
+
+}
+
+.alinhamento--meio{
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}
